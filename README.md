@@ -4,6 +4,10 @@ This repository is destined to upload my vagrant configuration with ansible.
 
 # First step
 
+Requirements:
+* Virtualbox
+* Ubuntu/Debian
+
 How install and use vagrant:
 
 You can download the vagrant pacakge fromt te oficial web:
