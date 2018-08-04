@@ -3,10 +3,4 @@
   become: yes
   roles:
      - minimal-system
-     #     - { role: zabbix-server, database_type: mysql, database_type_long: mysql, zabbix_server_dbpassword: ñlsdjfodguy978, mysql_root_password: lkjlkdjf8676 }
-     #- { role: secure-mysql, mysql_root_password: lkjlkdjf8676 }
-     #- ssl
      - { role: rancid, rancid_groups: switchs routers }
-       #- { role: weathermap, zabx_username: weathermap, zabx_pw: zabbix }
-       #- { role: htaccess, htaccess_name: weathermap, htpasswd_path: /var/www/html/weathermap }
-       #- { role: htaccess, htaccess_name: rancid, htpasswd_path: /usr/lib/cgi-bin }
