@@ -14,13 +14,13 @@ dpkg -i vagrant_2.1.2_x86_64.deb
 ```
 
 Create folder vagrant on your home (or any location what you prefer):
-
+```
 mkdir ~/vagrant
-
+```
 And for every template create a new folder:
-
+```
 mkdir ~/vagrant/debian-vm
-
+```
 Now you can download the file Vagrantfile from this repository and put inside the directory Vagrantfile.
 
 If you can't use any playbook for ansible, comment this lines:
