@@ -46,5 +46,5 @@ vagrant ssh
 ```
 If you need reload config of vagrant:
 ```
-vagrant reload
+vagrant reload --provision
 ```
