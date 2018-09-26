@@ -38,6 +38,7 @@ end
 ```
 Execute the next command for initialize the machine and apply playbook (if you configured this):
 ```
+cd /etc/ansible/skeleton/vagrant.yml
 vagrant up --provision
 ```
 After deploy, you can access to machine with
